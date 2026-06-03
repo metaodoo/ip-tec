@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template inherit_id="portal.frontend_layout" id="wm_website_whatsapp" name="Main layout">
+        <xpath expr="//div[@id='wrapwrap']" position="before">
+            <t>
+                <t>
+                    <a   t-attf-href="https://wa.me/211929007008"
+                            t-attf-class="wm_whatsapp_live float float-bottom-right float-floating" target="_blank" >
+                        <t>
+                            <img style="width: 60px; height: 60px;"
+                                 src="/wm_website_whatsapp_button/static/src/img/wa.png" class="img-fluid"/>
+                        </t>
+                    </a>
+
+                </t>
+            </t>
+        </xpath>
+    </template>
+</odoo>
