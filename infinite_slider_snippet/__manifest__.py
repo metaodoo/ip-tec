@@ -1,0 +1,27 @@
+{
+    'name': 'Website Infinite Slider Snippet',
+    'version': '19.0.1.0',
+    'summary': 'Website Infinite Slider Snippet',
+    'description': """The module adds an infinite slider and the image are taken from the website configuration Slider """,
+    'category': 'Website',
+    'author': 'CorTex IT Solutions Ltd.',
+    'website': 'https://cortexsolutions.net',
+    'license': 'OPL-1',
+    'support': 'support@cortexsolutions.net',
+    'depends': ['base', 'website'],
+    'data': ['security/ir.model.access.csv',
+             'views/image_slider.xml',
+             'views/snippet_structure_inherit.xml',
+             ],
+    'images': ['static/description/banner.png'],
+    'installable': True,
+    'application': False,
+    'auto_install': False,
+    'assets': {
+        'web.assets_frontend': [
+            '/infinite_slider_snippet/static/src/css/theme_default.css',
+            '/infinite_slider_snippet/static/src/image/carousel.jpg',
+            '/infinite_slider_snippet/static/src/js/caroursel.js',
+        ],
+    },
+}
