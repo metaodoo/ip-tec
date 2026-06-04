@@ -1,0 +1,108 @@
+/*
+This file is meant to regroup your design customizations.
+*/
+
+.s_carousel.s_carousel_rounded .carousel-indicators li, .s_quotes_carousel.s_carousel_rounded .carousel-indicators li{
+    background-color: rgba(176, 7, 7,0.5) !important;
+}
+
+.carousel-control-prev{
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.carousel-control-next{
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.nav-link{
+    color:red;
+}
+.dropdown-item{
+    background-color:white;
+    color:#000 !important;
+}
+.dropdown-item span{
+    color:#CE0000 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#CE0000 !important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #000000 !important;
+}
+
+@media (max-width: 600px) {
+   section.s_carousel_template.o_colored_level.pb0.pt24 {
+        display: none;
+    }
+    
+    .o_no_autohide_item > a.dropdown-toggle.nav-link {
+        display: none ;
+    }
+    
+    header .o_colored_level.o_grid_item.g-col-lg-4.g-height-2.col-lg-4 {
+        margin-top: -28px !important;
+        margin-bottom: -20px !important;
+    }
+    
+    .o_colored_level.o_grid_item.g-col-lg-4.g-height-2.col-lg-4 p strong br {
+        display: none !important;
+    }
+    
+    .fl-fl {
+        z-index: 2000 !important;
+    }
+    
+    .slide {
+        margin-right: 0 !important
+    }
+    
+    #oe_structure_header_slogan_1 .o_grid_item  form {
+        display: none !important;
+    }
+    header .navbar-brand.logo {
+        margin-inline: auto !important;
+    }
+    
+    .o_colored_level.o_grid_item.g-col-lg-4.g-height-2.col-lg-4  p {
+        display: flex;
+        align-items: center;
+        /* gap: 10px; */
+        font-size: 11px;
+        text-align: center !important;
+        justify-content: space-between;
+        margin-bottom: -2px;
+        margin-top: 12px;
+    }
+}
+#wrap > section.section_sf_icon.o_colored_level > div {
+    z-index: 9999 !important;
+}
+
+#top_menu > li > div > section > div > div > div > nav > a:hover {
+    background-color: #E9EFED;
+}
+
+
+#oe_structure_header_slogan_1 > section > div > div > div.o_colored_level.o_grid_item.g-col-lg-5.g-height-1.col-lg-5 {
+    width: 81% !important;
+}
+
+#oe_structure_header_slogan_1 > section > div > div > div.o_colored_level.o_grid_item.g-height-2.g-col-lg-5.col-lg-5 {
+    width: 85% !important;
+    height: 75px !important;
+}
+
+#oe_structure_header_slogan_1 > section > div > div {
+    width: 800px !important;
+    grid-template-columns: unset;
+    align-items: end;
+} 
+@media (max-width: 767px) {
+    #oe_structure_header_slogan_1 > section.s_searchbar.o_colored_level.pb0.pt0.d-lg-none.o_snippet_desktop_invisible > div > div > div.o_colored_level.o_grid_item.g-height-2.g-col-lg-5.col-lg-5 {
+    display: flex;
+    padding-left: 0px !important;
+}
+}

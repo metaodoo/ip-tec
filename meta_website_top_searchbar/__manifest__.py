@@ -17,10 +17,15 @@
     
     'data': [
         # 'security/ir.model.access.csv',
-        # 'views/search_top.xml',
+        'views/search_top.xml',
         'views/s_searchbar_new.xml',
     ],
     "installable": True,
     "auto_install": False,
     "application": True,
+    'assets': {
+        'web.assets_frontend': [
+            'meta_website_top_searchbar/static/src/css/custom.css',
+        ],
+    },
 }

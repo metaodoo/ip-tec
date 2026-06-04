@@ -14,12 +14,8 @@
     </template>
 
     <template id="s_searchbar_new" inherit_id="website.snippets" name="Search Bar By Rifat">
-    <xpath expr="//div[@id='snippet_effect']/div[hasclass('o_panel_body')]" position="inside">
-        <!-- <section class="s_searchbar_new o_colored_level o_cc o_cc2 pt48 pb48">
-            <div class="container"> -->
+    <xpath expr="//snippets[@id='snippet_structure']" position="inside">
             <t t-snippet="meta_website_top_searchbar.s_searchbar_new_input" t-thumbnail="/meta_website_top_searchbar/static/src/img/snippets_thumbs/sg.png"/>
-            <!-- </div>
-        </section> -->
     </xpath>
     </template>
 
